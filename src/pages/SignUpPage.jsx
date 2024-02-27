@@ -25,15 +25,15 @@ export function SignUpPage (){
                 type="password"
                 placeholder="Confirm your passowrd..."
             />
-            {/* <InputMask mask="(99) 9999-9999">
-                { (inputProps) => {
+            <InputMask mask="(99) 99999-9999">
+                {(inputProps) => (
                     <TextField
-                        {...inputProps}  
-                        type="tel"
-                        placeholder="Type your phone number..."
+                    {...inputProps}
+                    type="tel"
+                    placeholder="Digite o seu celular"
                     />
-                } }
-            </InputMask> */}
+                )}
+            </InputMask>
             <div>
                 <Checkbox />
                 <Typography>Accept contract</Typography>
